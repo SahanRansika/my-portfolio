@@ -1,0 +1,215 @@
+body{
+    background: black;
+    overflow-x: hidden;
+}
+span{
+    color: aqua;
+}
+p{
+    font-family: serif;
+}
+input{
+    width: 600px;
+}
+button {
+    background: black;
+    color: aqua;
+    border-radius: 20px 20px 20px 20px;
+    padding: 1vh;
+}
+
+label{
+    color: white;
+}
+#active{
+    color: aqua;
+}
+/*design header section*/
+.header{
+    position: relative;
+    background: black;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    display: flex;
+}
+.navbar{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    right: 200px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    padding: 6px 8px;
+    font-size: 18px;
+    font-family: serif;
+}
+
+
+/*design home section*/
+.home{
+    position: relative;
+}
+.home-content{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    color: white;
+}
+.image-Profile{
+    position: absolute;
+    right: 150px;
+    bottom: -550px;
+}
+.text-hi{
+    font-size: 40px;
+    font-family: Rowdies;
+}
+.text-name{
+    font-size: 40px;
+    font-family: Monoton;
+}
+.text-post{
+    font-size: 40px;
+    font-family: serif;
+}
+
+/*design skill section*/
+.skill{
+    position: relative;
+}
+.text-skill{
+    position: absolute;
+    left: 450px;
+    top: 600px;
+    color: white;
+    font-size: 50px;
+}
+.skill-content{
+    position: absolute;
+    left: 500px;
+    top: 700px;
+}
+
+/*design service section*/
+.service{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.text-service{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 650px;
+    top: 1000px;
+}
+.service>div{
+    position: relative;
+    left: 100px;
+    top: 1200px;
+    width: 200px;
+    height: 300px;
+    background-image: linear-gradient(to bottom,aqua,black);
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5vh;
+}
+.service-font{
+    color: black;
+    font-size: 18px;
+    font-family: serif;
+}
+
+/*design work section*/
+.work{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.text-work{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left: 700px;
+    top: 1300px;
+}
+.btn-project{
+    position: absolute;
+    left: 700px;
+    top: 1450px;
+}
+.btn-project>a>button{
+    background: black;
+    color: aqua;
+}
+.work-content{
+    position: relative;
+    left: 150px;
+    top: 1500px;
+    width: 150px;
+    height: 200px;
+    background-image: linear-gradient(to bottom,aqua,black);
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5vh;
+}
+/*design gallery section*/
+.gallery{
+    position: relative;
+}
+.text-gallery{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    left: 50px;
+    top: 1600px;
+}
+.gallery-content{
+    position: absolute;
+    left: 100px;
+    top: 1750px;
+    font-family: serif;
+}
+
+/*design contact section*/
+.contact{
+    position: relative;
+}
+.text-contact{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left: 50px;
+    top: 1800px;
+}
+.contact-content{
+    position: absolute;
+    left: 100px;
+    top: 1950px;
+    font-size: 20px;
+    font-family: serif;
+}
+.btn-contact{
+    position: absolute;
+    right: 200px;
+    top: 2300px;
+}
+
+/*design footer*/
+
+footer{
+    height: 6vh;
+    width: 100%;
+    background: aqua;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    position: relative;
+    top: 2400px;
+}
