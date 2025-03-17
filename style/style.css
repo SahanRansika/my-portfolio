@@ -289,3 +289,33 @@ footer{
     font-family: Nunito;
     font-size: 15px;
 }
+
+/*Education section design*/
+.education{
+    position: relative;
+}
+.text-education{
+    font-family: Nunito;
+    font-size: 28px;
+    position: absolute;
+    color: white;
+    left: 750px;
+    top: 200px;
+}
+.education-content{
+    position: absolute;
+    color: white;
+    left: 500px;
+    top: 270px;
+    display: flex;
+}
+.education-content>div{
+    justify-content: space-between;
+    background: black;
+    width: 200px;
+    height: 300px;
+    border: 5px solid black;
+    left: 50px;
+    text-align: center;
+}
+
