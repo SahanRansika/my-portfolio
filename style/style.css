@@ -71,4 +71,30 @@ label{
     font-size: 18px;
     font-family: serif;
 }
-
+/*Home section design*/
+.home{
+    position: relative;
+}
+.home-content{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    color: white;
+}
+.image-home{
+    position: absolute;
+    right: 150px;
+    top: 100px;
+}
+.text-hi{
+    font-size: 40px;
+    font-family: Rowdies;
+}
+.text-name{
+    font-size: 40px;
+    font-family: Monoton;
+}
+.text-post{
+    font-size: 40px;
+    font-family: serif;
+}
