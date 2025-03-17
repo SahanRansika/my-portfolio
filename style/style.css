@@ -247,3 +247,15 @@ input[type=submit]{
     width: 150px;
     padding: 1vh;
 }
+
+/*Footer design*/
+footer{
+    height: 5vh;
+    width: 100%;
+    background: aqua;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    position: relative;
+    top: 2100px;
+}
