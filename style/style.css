@@ -183,3 +183,21 @@ label{
     border-radius: 20px 20px 20px 20px;
     padding: 5vh;
 }
+
+/*Gallery section design*/
+.gallery-index{
+    position: relative;
+}
+.text-gallery{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 50px;
+    top: 1000px;
+}
+.btn-gallery{
+    position: absolute;
+    left: 100px;
+    top: 1200px;
+    font-family: serif;
+}
