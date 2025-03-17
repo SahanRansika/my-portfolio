@@ -44,3 +44,31 @@ label{
 #active{
     color: var(--main-color);
 }
+/*Header section design*/
+.header{
+    position: fixed;
+    background: black;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    display: flex;
+}
+.navbar{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    right: 200px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    padding: 6px 8px;
+    font-size: 18px;
+    font-family: serif;
+}
+
