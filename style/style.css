@@ -1,0 +1,7 @@
+/*root element design*/
+:root {
+    --bg-color:black;
+    --second-bg-color:#081b29;
+    --text-color:white;
+    --main-color:aqua;
+}
