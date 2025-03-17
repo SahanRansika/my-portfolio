@@ -44,6 +44,7 @@ label{
 #active{
     color: var(--main-color);
 }
+
 /*Header section design*/
 .header{
     position: fixed;
@@ -71,6 +72,7 @@ label{
     font-size: 18px;
     font-family: serif;
 }
+
 /*Home section design*/
 .home{
     position: relative;
@@ -98,3 +100,21 @@ label{
     font-size: 40px;
     font-family: serif;
 }
+
+/*Skill section design*/
+.skill{
+    position: relative;
+}
+.text-skill{
+    position: absolute;
+    left: 450px;
+    top: 700px;
+    color: white;
+    font-size: 50px;
+}
+.skill-content{
+    position: absolute;
+    left: 500px;
+    top: 800px;
+}
+
