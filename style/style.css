@@ -201,3 +201,49 @@ label{
     top: 1200px;
     font-family: serif;
 }
+
+/*Contact section design*/
+.contact{
+    position: relative;
+}
+.text-contact{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left: 50px;
+    top: 1350px;
+}
+.contact-content{
+    position: absolute;
+    left: 100px;
+    top: 1400px;
+    font-size: 20px;
+    font-family: serif;
+    flex: 55%;
+    margin-top: 4%;
+    background-color: black;
+    padding: 3%;
+}
+input[type=text]{
+    border-radius: 5px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+}
+textarea{
+    border-radius: 5px;
+    padding: 12px;
+    background-color: black;
+    width: 600px;
+    color: white;
+}
+input[type=submit]{
+    position: absolute;
+    right: 200px;
+    top: 2000px;
+    background: black;
+    color: aqua;
+    border-radius: 20px 20px 20px 20px;
+    width: 150px;
+    padding: 1vh;
+}
