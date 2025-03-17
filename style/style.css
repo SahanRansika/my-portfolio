@@ -5,3 +5,42 @@
     --text-color:white;
     --main-color:aqua;
 }
+
+/*All body design*/
+body{
+    background: var(--bg-color);
+    overflow-x: hidden;
+}
+
+/* All span design*/
+span{
+    color: var(--main-color);
+}
+
+/*All p->(paragraph) design*/
+p{
+    font-family: serif;
+}
+
+/*All input design*/
+input{
+    width: 600px;
+}
+
+/*All buttons design*/
+button {
+    background: var(--bg-color);
+    color: var(--main-color);
+    border-radius: 20px 20px 20px 20px;
+    padding: 1vh;
+}
+
+/*All label design*/
+label{
+    color: var(--text-color);
+}
+
+/*All active design*/
+#active{
+    color: var(--main-color);
+}
