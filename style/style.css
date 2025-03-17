@@ -330,3 +330,31 @@ footer{
 .gallery-content{
 }
 
+/*Assignment section design*/
+.assignment{
+    /*position: relative;*/
+}
+.btn-project-2{
+    position: absolute;
+    left: 700px;
+    top: 50px;
+}
+.btn-project-2>a>button{
+    background: black;
+    color: aqua;
+}
+.assignment-content{
+    display: flex;
+    justify-content: space-around;
+}
+.assignment-content>div{
+    color: aqua;
+    border: 5px solid black;
+    background: black;
+    width: 200px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
