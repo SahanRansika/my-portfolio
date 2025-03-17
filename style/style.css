@@ -259,3 +259,33 @@ footer{
     position: relative;
     top: 2100px;
 }
+
+/*About.html section design*/
+
+/*About section design*/
+.about{
+    position: relative;
+}
+.text-about{
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 0;
+    font-family: Nunito;
+    font-size: 28px;
+}
+.image-about{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+.about-content{
+    position: absolute;
+    color: white;
+    left: 400px;
+    top: 100px;
+}
+.about-content>p{
+    font-family: Nunito;
+    font-size: 15px;
+}
