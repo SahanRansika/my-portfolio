@@ -319,3 +319,14 @@ footer{
     text-align: center;
 }
 
+/*Gallery.html section design*/
+
+/*Gallery section design*/
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.gallery-content{
+}
+
