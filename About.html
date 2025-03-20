@@ -3,49 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>About</title>
+  <!--    page side link-->
   <link rel="icon" type="image/ico" href="images/SRK_nameTag.jpg">
+  <!--    style link-->
+  <link rel="stylesheet" href="style/style.css">
+  <!--    normalize link-->
+  <link rel="stylesheet" href="assets/lib/normalize.css">
+  <!--    fontawesome link-->
+  <link rel="stylesheet" href="assets/lib/fontawesome/fontawesome-free-6.7.2-web/css/all.css">
+  <!--    font -> Monoton-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
+  <!--    media query-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<style>
-  body{
-    /*Dark Mode*/
-    background-color: #121212;
-    /*Light Text*/
-    color: #ffffff;
-    font-family: "Arial Rounded MT Bold";
-    text-align: left;
-  }
-
-</style>
 <body>
-<div>
-  <a href="index.html"><img src="images/bookstore%20(46).png" width="50"></a><h1>About me</h1><br><br>
-  <img src="images/WhatsApp%20Image%202025-01-14%20at%2011.56.59_3f544f43.jpg"width="300">
-  <h3>FULL NAME: SAHAN RANSIKA KUMARA ARACHCHI</h3>
-  <h3>ADDRESS: AWARIYATHTHA,KALAWILA,BERUWALA</h3>
-  <h3>COUNTRY: SRI LANKA</h3>
-  <img src="images/wired-gradient-2624-logo-circle-facebook-hover-roll.gif"width="50">
-  <img src="images/wired-gradient-2632-logo-circle-linkedin-hover-roll.gif"width="50">
-  <img src="images/wired-gradient-2626-logo-circle-instagram-hover-roll.gif"width="50">
-</div>
-<div>
-  <h1>Education</h1>
-  <button>
-    <br><br>
-    <img src="images/images.jpeg"width="100">
-    <p>My First School is K/ Sri Gnanissara M.V.<br>OLEVEL(2019)</p>
-  </button>
-  <button>
-    <br><br>
-    <img src="images/Gna.jpeg"width="125">
-    <p>My Second School is K/Gnanodaya Collage<br>ALEVEL(2022/2023)</p>
-  </button>
-  <button>
-    <br><br><br>
-    <img src="images/IJSE.png"width="250"><br>
-    <p>I am currently studying computer science at this institute. <br>finish the first semester with gratefull marks. </p>
-  </button>
+<!--header section design-->
+<header class="header">
+  <a href="#" class="logo">SRK.</a>
+  <div class="bx bx-menu" id="menu-icon">
+    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+  </div>
+  <nav class="navbar">
+    <a href="index.html" id="active">Home</a>
+    <a href="About.html">About</a>
+    <a href="index.html#skills">Skills</a>
+    <a href="index.html#work">Works</a>
+    <a href="index.html#education">Education</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+</header>
 
+<!--about section design-->
+<section class="about" id="about">
+  <h2 class="heading">About <span>Me</span></h2>
 
-</div>
+  <div class="about-img">
+    <img src="images/Profile-image.jpg">
+    <span class="circle-spin"></span>
+  </div>
+
+  <div class="about-content">
+    <h3>Full-Stack Developer</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda beatae
+      corporis dignissimos distinctio eos error exercitationem fugiat, id maxime minus,
+      nobis optio quo veniam voluptatibus! Eaque inventore quo rem. Dignissimos fugit
+      illo optio veritatis! Accusantium aut dolor dolore ea, earum, eos exercitationem
+      harum illum modi, quam quis voluptatibus voluptatum.eos exercitationem
+      harum illum modi, quam quis voluptatibus voluptatum.</p>
+
+    <div class="btn-box btns">
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </div>
+</section>
 </body>
 </html>

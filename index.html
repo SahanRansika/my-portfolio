@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+<!--    page side link-->
     <link rel="icon" type="image/ico" href="images/SRK_nameTag.jpg">
+    <!--    style link-->
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-</head>
+    <!--    normalize link-->
+    <link rel="stylesheet" href="assets/lib/normalize.css">
+    <!--    fontawesome link-->
+    <link rel="stylesheet" href="assets/lib/fontawesome/fontawesome-free-6.7.2-web/css/all.css">
+    <!--    font -> Monoton-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
+    <!--    media query-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
+
 <!--header section design-->
 <header class="header">
-    <img src="images/SRK_photo-01.png" width="100px">
-    <div class="bx bx-menu" id="menu-icon"></div>
+    <a href="#" class="logo">SRK.</a>
+    <div class="bx bx-menu" id="menu-icon">
+        <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+    </div>
     <nav class="navbar">
         <a href="index.html" id="active">Home</a>
         <a href="About.html">About</a>
-        <a href="#service">Service</a>
-        <a href="#skill">Skill</a>
-        <a href="#work">Work</a>
-        <a href="Gallery.html">Gallery</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Works</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -28,139 +36,249 @@
 <!--home section design-->
 <section class="home" id="home">
     <div class="home-content">
-        <h1 class="text-hi"> Hi! I'm</h1>
-        <span class="text-name">Sahan Ransika Kumara</span>
-        <div class="text-post">
+        <h1>Hi, I'm<br>Sahan Ransika Kumara</h1>
+        <div class="text-animate">
             <h3>Full-Stack Developer</h3>
         </div>
-        <p>Creating Stunning,responsive websites that adapt to any screen size,combining creativity and <br>functionality for online success.</p>
+        <p>Creating Stunning,responsive websites that adapt <br>to any screen size,combining creativity and <br>functionality for online success.</p>
         <div class="btn-box">
-            <a href="#" class="btn"><button>Hire Me</button></a>
-            <a href="About.html" class="btn"><button>About Me</button></a>
+            <a href="#" class="btn">Hire Me</a>
+            <a href="#" class="btn">Let's Talk</a>
         </div>
     </div>
-    <div class="image-home">
-        <img src="images/profileimage.png"width="300">
+    <div class="home-sci">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
     </div>
+    <div class="home-image">
+        <img src="images/profileimage.png">
+    </div>
+    <div class="home-imageHover"></div>
 </section>
 
-<!--Skill & Technology Section design-->
-<section class="skill">
-    <h1 class="text-skill" id="skill"><span>Skills &</span> Technology Tool</h1>
-    <div class="skill-content">
-        <img src="images/wired-gradient-1323-java-code-language-hover-pinch.gif"width="64">
-        <img src="images/icons8-javascript-64.png">
-        <img src="images/wired-gradient-1321-html-5-code-language-hover-pinch.gif"width="64">
-        <img src="images/icons8-css-64.png">
-        <img src="images/icons8-figma-64.png">
-        <img src="images/icons8-github-64.png"><br>
-        <img src="images/icons8-react-native-64.png">
-        <img src="images/intellij.256x255.png" width="50">
-        <img src="images/icons8-behance-64.png">
-        <img src="images/icons8-icons8-64.png">
-        <img src="images/icons8-visual-studio-64.png">
-        <img src="images/icons8-mysql-64.png"><br>
-        <img src="images/icons8-c-plus-plus-64.png">
-        <img src="images/icons8-scene-builder-64.png">
-        <img src="images/icons8-canva-64.png">
-        <img src="images/draw-io.256x256.png"width="50">
-        <img src="images/icons8-photoshop-64.png">
-        <img src="images/icons8-python-64.png">
-    </div>
+<!--skills section design-->
+<section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills-row">
+        <!--        coding skills design-->
+        <div class="skills-column">
+            <h3 class="title">Coding Skills</h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>HTML <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
 
-</section>
+                    <div class="progress">
+                        <h3>CSS <span>85%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
 
-<!--Service Section design-->
-<section class="service">
-    <h1 class="text-service" id="service">Services</h1>
-    <div class="service-font">
-        <img src="images/icons8-setting-100%20(1).png"width="50">
-        <h4>UI/UX Design</h4>
-        <p>Creating Stunning,<br>responsive websites that <br>adapt to any screen size,<br>combining creativity and <br>functionality for online<br> success.<br><br></p>
-    </div>
+                    <div class="progress">
+                        <h3>JavaScript <span>70%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
 
-    <div class="service-font">
-        <img src="images/icons8-setting-100%20(1).png"width="50">
-        <h4>Application & Software<br> Development</h4>
-        <p>Designing attractive,easy-<br>to-use interface that<br> create grate user<br> experiences for apps and<br> websites,ensuring<br> satisfaction and simplicity.</p>
-    </div>
+                    <div class="progress">
+                        <h3>Java <span>75%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="service-font">
-        <img src="images/icons8-setting-100%20(1).png"width="50">
-        <h4>Web Design</h4>
-        <p>Developing powerful apps<br> and software to<br> simplify tasks,slove<br> problems,and bring <br>innovate ideas to life.<br><br><br></p>
+        <!--        professional skills design-->
+        <div class="skills-column">
+            <h3 class="title">Professional Skills</h3>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>Web Design <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Web Development <span>85%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Graphic Design <span>70%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress">
+                        <h3>Java <span>75%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
 <!--Works section design-->
-<section class="work">
-    <h1 class="text-work" id="work">Works</h1>
-    <div class="btn-project">
-        <button><b>Project</b></button>
-        <a href="Assignment.html"><button><b>Assignment</b></button></a>
-        <br><br>
-    </div>
-    <div class="work-content" id="works">
-        <h5>BookStore<br>Management System</h5><br>
-        <img src="images/booksssss.png"width="100"><br><br><br>
-        <button>explore</button>
-    </div>
+<section class="works" id="work">
+    <h2 class="heading" >My <span>Project</span></h2>
+     <div class="work-content">
+         <div class="work">
+             <div class="content">
+                 <h4>BookStore<br>Management System</h4><br><br>
+                 <img src="images/icons8-books-100.png" width="80"><br><br><br>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, repellat?</p><br>
+                 <button class="work-btn">explore</button>
+             </div>
+         </div>
 
-    <div class="work-content">
-        <h5>BookStore<br>Management System<br>Layerd</h5>
-        <img src="images/booksssss.png"width="104"><br><br><br>
-        <button>explore</button>
-    </div>
+         <div class="work">
+             <div class="content">
+                 <h4>BookStore<br>Management System<br>Layerd</h4><br>
+                 <img src="images/icons8-books-100.png" width="80"><br><br><br>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, repellat?</p><br>
+                 <button class="work-btn">explore</button>
+             </div>
+         </div>
 
-    <div class="work-content">
-        <h4>Stock Management<br> System</h4>
-        <img src="images/stockmmm.png"width="150"><br><br><br>
-        <button>explore</button>
-    </div>
+         <div class="work">
+             <div class="content">
+                 <h4>Stock Management<br> System</h4><br>
+                 <img src="images/icons8-management-system-100.png" width="90"><br><br><br>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, repellat?</p><br>
+                 <button class="work-btn">explore</button>
+             </div>
+         </div>
 
-    <div class="work-content">
-        <h4>Tic-Tac-Tao Game</h4>
-        <img src="images/tic-tac-toe%20(1).png"width="114"><br><br><br><br>
-        <button>explore</button>
-    </div>
+         <div class="work">
+             <div class="content">
+                 <h4>Tic-Tac-Tao Game</h4><br><br>
+                 <img src="images/icons8-tic-tac-toe-100%20(1).png"width="80"><br><br><br><br>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, repellat?</p><br>
+                 <button class="work-btn">explore</button>
+             </div>
+         </div>
 
-    <div class="work-content">
-        <h4>Portfolio-Html </h4>
-        <img src="images/SRK_photo-01.png"width="150"><br><br>
-        <button>explore</button>
+         <div class="work">
+             <div class="content">
+                 <h4>Portfolio-Html </h4>
+                 <img src="images/SRK_photo-01.png"width="130"><br><br>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, repellat?</p><br>
+                 <button class="work-btn">explore</button>
+             </div>
+         </div>
+     </div>
+</section>
+
+<!--education section design-->
+<section class="education" id="education">
+    <h2 class="heading">My <span>Journey</span></h2>
+    <!--education-->
+    <div class="education-row">
+        <div class="education-column">
+            <h3 class="title">Education</h3>
+            <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2019 - 2020</div>
+                        <h3> K/ Sri Gnanissara Collage</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto corporis ea exercitationem itaque reiciendis. Accusantium hic necessitatibus optio sequi temporibus?</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2020 - 2022</div>
+                        <h3>K/ Gnanodaya Collage</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto corporis ea exercitationem itaque reiciendis. Accusantium hic necessitatibus optio sequi temporibus?</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2022 - 2025</div>
+                        <h3>IJSE - Institute of Software Engineering</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto corporis ea exercitationem itaque reiciendis. Accusantium hic necessitatibus optio sequi temporibus?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--    experience-->
+        <div class="education-column">
+            <h3 class="title">Experience</h3>
+            <div class="education-box">
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2019 - 2020</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto corporis ea exercitationem itaque reiciendis. Accusantium hic necessitatibus optio sequi temporibus?</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2020 - 2022</div>
+                        <h3>Application & Software Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto corporis ea exercitationem itaque reiciendis. Accusantium hic necessitatibus optio sequi temporibus?</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="content">
+                        <div class="year"><i class='bx bxs-calendar'></i>2022 - 2025</div>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto corporis ea exercitationem itaque reiciendis. Accusantium hic necessitatibus optio sequi temporibus?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-<!--Gallery section design-->
-<section class="gallery-index">
-    <div class="text-gallery">
-        <h1>Gallery</h1>
-    </div>
-    <div class="btn-gallery">
-        <a href="Gallery.html"><button><b>Photo View</b></button></a>
-    </div>
-</section>
 
-<!--Contact section design-->
-<section class="contact">
-    <h1 class="text-contact" id="contact">Contact me</h1>
-    <form class="contact-content">
-        <label>Full Name</label><br>
-        <input type="text" placeholder="Enter your name"><br><br>
-        <label>Email</label><br>
-        <input type="text" placeholder="Enter your email"><br><br>
-        <label>Phone Number</label><br>
-        <input type="text" placeholder="Enter your phone number"><br><br>
-        <label>Address</label><br>
-        <input type="text" placeholder="Enter your address"><br><br>
-        <label>Your Message</label><br>
-        <textarea placeholder="Enter your message"></textarea><br><br>
+<!--contact section design-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Full Name" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Address" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Email Subject" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+        <div class="textarea-field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <span class="focus"></span>
+        </div>
+        <div class="btn-box btns">
+            <button type="submit" class="btn">Submit</button>
+        </div>
     </form>
-    <input type="submit" value="send message">
-    <!--    <button class="btn-contact"><b>send message</b></button><br>-->
 </section>
 
-<!--Footer design-->
-<footer><b>&copy Sahan-Portfolio</b></footer>
+<!--footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2025 by Sahan Ransika Kumara.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#"><i class="fa-solid fa-arrow-up fa-flip-horizontal fa-2xl"></i></a>
+    </div>
+</footer>
+<script src="assets/lib/fontawesome/fontawesome-free-6.7.2-web/js/all.min.js"></script>
+</body>
+</html>
 </body>
 </html>
