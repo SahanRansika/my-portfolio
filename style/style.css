@@ -222,6 +222,12 @@ section {
     width: 100%;
 }
 
+.btnplace{
+    position: relative;
+    left: 550px;
+    top: 100px;
+}
+
 .home-sci {
     position: absolute;
     bottom: 4rem;
@@ -442,7 +448,7 @@ h4 {
     height: 0;
     background: var(--second-bg-color);
     z-index: -1;
-    transition: 3s;
+    transition: .5s;
 }
 
 .work .content:hover::before {
@@ -587,7 +593,7 @@ h4 {
     height: 100%;
     background: var(--second-bg-color);
     z-index: -1;
-    transition: 5s;
+    transition: .5s;
 }
 
 .education-content .content .year {
@@ -749,13 +755,167 @@ h4 {
 .assignment-content {
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    height: 100%;
 }
 .as-file {
     text-align: center;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
     background: transparent;
     border: 2rem solid black;
     border-radius: 20px 20px 20px 20px;
 }
 
+/*design @media query section*/
+@media (max-width: 1200px){
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 4%;
+    }
+    section {
+        padding: 10rem 4% 2rem;
+    }
+    .home {
+        padding: 0 4%;
+    }
+}
+
+@media (max-width: 720px) {
+    .header {
+        background: var(--second-bg-color);
+    }
+    .logo {
+        font-size: 40px;
+    }
+    #menu-icon {
+        font-size: 3.6rem;
+        cursor: pointer;
+        display: block;
+    }
+    #menu-icon{
+        position: absolute;
+        right: 50px;
+    }
+    header>nav>a {
+        display: none;
+    }
+    .home-image img {
+        width: 300px;
+    }
+    .home-image {
+        position: absolute;
+        left: 120px;
+        top: 10px;
+    }
+    .home h1 {
+        font-size: 35px;
+    }
+    .home-content {
+        position: absolute;
+        left: 100px;
+        top: 520px;
+        max-width: 500px;
+    }
+    .home-sci {
+        position: absolute;
+        left: 120px;
+        top: 850px;
+    }
+    .home-imageHover {
+        display: none;
+    }
+    .about-content p {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 300px) {
+    .header {
+        background: var(--second-bg-color);
+    }
+    .logo {
+        font-size: 20px;
+    }
+    #menu-icon {
+        font-size: 3.6rem;
+        cursor: pointer;
+        display: block;
+    }
+    #menu-icon{
+        position: absolute;
+        right: 20px;
+    }
+    header>nav>a {
+        display: none;
+    }
+    .home-image img {
+        width: 200px;
+    }
+    .home-image {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+    }
+    .home h1 {
+        font-size: 22px;
+    }
+    .home-content {
+        position: absolute;
+        left: 10px;
+        top: 400px;
+        max-width: 280px;
+    }
+    .home-content p {
+        font-size: 10px;
+        max-width: 300px;
+    }
+    .home-sci {
+        position: absolute;
+        left: 20px;
+        top: 620px;
+    }
+    .btn-box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 20rem;
+        height: 3rem;
+        top: -25px;
+    }
+    .heading {
+        font-size: 25px;
+    }
+    .btn-box .btn {
+        font-size: 10px;
+        margin: 5px;
+    }
+    .home-imageHover {
+        display: none;
+    }
+    .about-content p {
+        max-width: 250px;
+        font-size: 10px;
+    }
+    .about-content h3 {
+        font-size: 20px;
+    }
+    .footer-iconTop a {
+        padding: 1.1rem;
+    }
+    .footer-text p {
+        font-size: 1rem;
+    }
+    .home-sci {
+        position: absolute;
+        bottom: 4rem;
+        max-width: 170px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
